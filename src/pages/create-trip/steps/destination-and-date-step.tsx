@@ -1,4 +1,4 @@
-import { ArrowRight, Calendar, MapPin, Plus, Settings2 } from "lucide-react";
+import { ArrowRight, Calendar, MapPin, Settings2 } from "lucide-react";
 import { Button } from "../../../components/button";
 
 interface DestinationAndDateStepProps {
@@ -32,10 +32,7 @@ export function DestinationAndDateStep({
           Alterar local/data
           <Settings2 className="size-5" />
         </Button>
-
-
       ) : (
-
         <Button onClick={openGuestInput} variant="primary">
           Continuar
           <ArrowRight className="size-5" />

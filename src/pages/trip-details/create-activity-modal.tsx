@@ -20,6 +20,9 @@ export function CreateActivityModal({
                         <button type="button" onClick={closeCreateActivityModal}>
                             <X className="size-5 text-zinc-400" />
                         </button>
+
+                        
+
                     </div>
                     <p className="text-sm text-zinc-400">
                         Todos os convidados podem visualizar as atividades.
